@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === 'p+wara') { 
+if (message.content === '+kfa') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -21,7 +21,7 @@ message.member.voiceChannel.join()
 
 } else { 
 
-message.reply('**تـامـەڕە پــۆڵــا🐑 نـەیـەت مـن نـایـەمـە ڤــۆیــس**'); 
+message.reply('**تــا کفن دز نەیەتە خەت من نایەمە ڤۆیس**'); 
 
 } 
 
@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/e2qZQdTE8y`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/MGewhU7kmu`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("847033580261736459").send(
+  client.channels.get("792287471110717461").send(
 `By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
